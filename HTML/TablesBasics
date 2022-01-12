@@ -1,0 +1,18 @@
+<html>
+    <head><title>Text Formating and Image in HTML</title></head>
+    <body>
+        <h1 align="center">Tables Basic</h1>
+        <table border="2">
+            <tr>
+                <th>C</th>
+                <th>C++</th>
+                <th>HTML</th>
+            </tr>
+            <tr>
+                <td>Done</td>
+                <td>Almost</td>
+                <td>Nope</td>
+            </tr>
+        </table>
+    </body>
+</html>
