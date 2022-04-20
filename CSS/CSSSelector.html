@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+    Selector
+    {
+        property: value
+    }
+    Element Selector:
+    h1
+    {
+        color: blue;
+    }
+    Id Selctor:
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:red;
+        }
+        div{
+            background-color: rgb(46, 39, 30);
+        }
+        #red
+        {
+            background-color: black;
+            color: lightskyblue;
+        }
+        .blue
+        {
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="Lorem">
+        <h1>This is my CSS Selector Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veritatis doloremque magnam vero. Molestiae necessitatibus porro pariatur itaque. Sed beatae labore doloribus asperiores, libero blanditiis debitis amet pariatur eius non, quidem dicta architecto sunt!</p>
+        <div id="red">bg is red</div>
+        <span class="blue">First Tag</span>
+        <span class="blue">Second Tag</span>
+        <span class="blue">Third Tag</span>
+    </div>
+</body>
+</html>
+<!--
+    Important Note:
+    1)Group Selector:
+    h1,h2,h3
+    {
+        color:blue
+    }
+    2)We can use element class as a selector like this:
+    p.red
+    {
+        color:red;
+    }
+    similarly
+    div#red
+    {
+        color:red;
+    }
+    only does to div tag with id of red
+    3)* can be used as a universal selector to select all the elements
+    *{
+        background-color: blue
+    }
+    4)An inline style will overrride external and internal styles
+-->
