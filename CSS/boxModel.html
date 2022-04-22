@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            height: 200px;
+            width: 200px;
+            background: cyan;
+            margin: 14px;
+            padding: 14px 23px;/*2 value denote rectangle with height 14px and width 23px, if we put 4 value then we can define for top, right, bottom, and left length for padding. Same is alson applicable to margin*/
+            border: 4px solid red;/*Same can be achieved by writing border-width, border-style and border-color*/
+            border-style: dashed double dotted groove;/*Same principal of top, right, bottom, and left goes here, also for three values it takes top, (left&right), bottom*/
+            border-radius:9px;/*Curves the ends*/
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis molestiae fugit ipsum necessitatibus sequi cum maiores et.
+    </div>
+</body>
+</html>
