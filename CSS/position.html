@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: square inside url("Moon.jpg");
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 10vh;
+        }
+        .box1{
+            height: 20vh;
+            width: 20vw;
+            position: fixed;
+            bottom: 0vh;
+            right:0vw;
+            background-color:royalblue;
+        }
+        p{
+            
+            border : solid red;
+            text-align: center;
+        }
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0 34px;
+            position: relative;
+        }
+        .box2{
+            height: 25vh;
+            width: 25vw;
+            background-color:chartreuse;
+        }
+        .box3{
+            background-color:darkgoldenrod;
+            height: 40vh;
+            width: 25vh;
+            position: absolute;
+            top: 25vh;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptate quo incidunt expedita, ea aspernatur placeat beatae dolor ut dolores nobis non animi dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, maxime.
+        </p>
+        <div class="box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. I am Box, bitch!
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui id saepe culpa harum vero assumenda ratione, reiciendis esse in amet magni deleniti, quos tempora?
+        </div>
+        <div class="box3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure nihil voluptatibus inventore illo possimus rem velit non aliquid vel! Officiis sint suscipit voluptatibus doloribus mollitia, quas aspernatur, fugit voluptates quis quod obcaecati labore molestias!
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+</body>
+</html>
+<!--
+    Static:The default position. top/bottom/left/right/z-index has no effect
+    relative:The top/bottom/left/right/z-index will work now.
+    absolute:The element is removed from the flow and is relatively positioned to its first non-static ancestor i.e top bottom works
+    fixed:Just like ansolute except the element is position relative to the browser window
+    sticky:The element is positioned based on the user's scroll position
+
+    List-style property
+    ul{
+        list-style: square(type) inside(position) url('harry.jpg')
+    }
+-->
