@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform 2d methods</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 314px;
+            width: 314px;
+        }
+        .box{
+            /* transform: skew(0deg) translate(0px, 90px) rotate(90deg);
+            translate(): give position in x-y coordinates
+            rotate(): rotate the element by desired degrees
+            scale(): changes size
+            skew(): change angle with respect to x or y coordinate to element corner
+             */
+            transform: matrix(1,0,0,1,10,100);/*matrix(scaleX(),skewY(),skewX(),scaleX(),translateX(),translateY())*/
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit. Amet officiis ipsam error mollitia perferendis asperiores voluptate possimus inventore porro, maiores suscipit cumque omnis. Accusantium illo hic dolore ullam pariatur temporibus sint recusandae!
+        </div>
+    </div>
+</body>
+</html>
